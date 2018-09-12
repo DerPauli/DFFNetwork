@@ -1,37 +1,16 @@
-## Welcome to GitHub Pages
+# NeuralNetwork
+Configurable NeuralNetwork implementation using Java
 
-You can use the [editor on GitHub](https://github.com/DerPauli/NeuralNetwork/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+# Purpose
+Neural Network includes documentation in doc folder. To use it, you have to write you own main file. Example is given in src/app/Application.java
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+You can adjust the size and amount of layers. You also have the possibility of creating a neural network trainer which trains your NN (Neural Network) to a given input.
 
-### Markdown
+# Current development
+As of now, the NN will be extended by image recognition. So far the project is still in development phase.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+# Future features / TODO
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/DerPauli/NeuralNetwork/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+* Finish active development and enable image recognition
+* The NN will implement it's own API so you can create and train NN's with ease.
+* Support multiple backpropagation algorithms
