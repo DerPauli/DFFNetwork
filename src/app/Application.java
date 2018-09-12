@@ -55,7 +55,7 @@ public class Application {
 		 */
 		System.out.println('\n');
 		
-		// TODO: distinguish between image of carrot and image of potatoe
+		// TODO: distinguish between image of carrot and image of potato
 		NeuralNetwork imgNN = new NeuralNetwork(100*100, 2, 100*100+10, 3);	// inp, outp, hiddensize, layers
 		TrainerClass imgTrainer = new TrainerClass(imgNN, 1000000);	// toTrain, cycles per training set
 		BufferedReader imgReader = new BufferedReader();
