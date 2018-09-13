@@ -12,7 +12,7 @@ import rnn.NeuralNetwork;
  * After instantiation with given NN the TrainerClass.setTrainingData() method has to be called.
  * After setting the TrainingData with parameters, TrainerClass.train() can be accessed.
  */
-public class TrainerClass {
+public class TrainerClass implements Runnable {
 	
 	private NeuralNetwork nn;
 	private int times;
@@ -57,5 +57,10 @@ public class TrainerClass {
 	
 	public String getBasePath() {
 		return this.basePath;
+	}
+
+	@Override
+	public void run() {
+		this.train();
 	}
 }
