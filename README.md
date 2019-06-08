@@ -11,6 +11,5 @@ As of now, the NN will be extended by image recognition. So far the project is s
 
 # Future features / TODO
 
-* Finish active development and enable image recognition
-* The NN will implement it's own API so you can create and train NN's with ease.
+* The NN should implement an overhead API for use on a server.
 * Support multiple backpropagation algorithms
